@@ -2,7 +2,7 @@
 ## Creaiamo una pagina about us in cui abbiamo le card dello staff
 
 
-# Welcome Page
+## Welcome Page
 
 1. Creare una rotta
 2. modifcare la view della welcome page
@@ -11,7 +11,7 @@
 5. creare una card per ogni elemento dell'array (ciclare l'array...)
 
 
-## ROTTE NOMINALI
+# ROTTE NOMINALI
 
 Assegnamo un nome ad una rotta per evitare di usare il suo uri ogni volta
 
@@ -19,13 +19,13 @@ Assegnamo un nome ad una rotta per evitare di usare il suo uri ogni volta
 - Nella vista usiamo la funzione {{ route('nomerotta') }}
 
 
-## ROTTE PARAMETRICHE
+# ROTTE PARAMETRICHE
 
 Passiamo un parametro all'interno della nostra rotta e in base a quel parametro 
 eseguiamo un'azione: nel nostro caso selezioniamo il film che mi interessa visualizzare in dettaglio
 
 
-## CONTROLLER
+# CONTROLLER
 Classe che si occupa di gestire la logica (che attualmente abbiamo inserito all'interno delle route) dopo che 
 è stata attivata una route
 
